@@ -1,0 +1,194 @@
+
+body{
+    background-color:whitesmoke;
+}
+.area{
+    
+    max-width: 70%;
+    margin: auto;
+    height: 2000px auto;
+    position: relative;
+    padding: 10px 50px 20px 50px;
+    align-items: center;
+
+
+}
+
+.content{
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(208, 236, 255);
+
+}
+
+.left_area{
+    background-color:azure;
+  
+}
+.left_title{
+    text-align: center;
+    border: 1px solid black; 
+    background-color:rgb(214, 250, 255);
+}
+.left_title h2{
+    font-size: 17px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.left_title h4{
+    font-size: 12px;
+    margin-top: -10px;
+    font-family:cursive ;
+}
+
+.left_area, .right_area{
+    float: left;
+    width: 600px;
+    height: 400px auto;
+    border: 1px solid black;
+    padding: 10px 40px 10px 40px;    
+}
+
+.table h4{
+    margin-left: 0px;
+}
+
+.table_order{
+    margin:auto;
+    margin-top: -10px;
+    text-align: center;
+    height: auto;
+    font-size: 13px;
+    background-color: rgb(29, 10, 10);
+    
+
+}
+
+.table_order .table_head th{
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(188, 236, 255);
+  
+
+}
+
+.order_body{
+    background-color: rgb(253, 253, 255);
+    max-width: 10px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.submit_button{
+    margin-top: 10px;
+}
+.submit_button .submit_text{
+    padding: 10px 20px 10px 20px;
+    font-family:cursive;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: rgb(55, 187, 243);
+}
+
+.order{
+    margin-top: 0px;
+    margin-left: 30%;
+}
+
+.order_ready_text{
+    margin-top: 60px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family:sans-serif;
+}
+.order_name{
+    font-family:cursive;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.input_order{
+    margin-top: -20px;
+    margin-bottom: 10px;
+    margin-left: 90px;
+    size: 10px;
+    
+}
+
+.input_order input{
+    width: 120px;
+    padding: 1px
+}
+
+
+.order_button{
+    margin: 20px 0px 0px 75%;
+    
+}
+.order_button .enter_text{
+    padding: 10px 30px 10px 30px;
+    font-family:cursive;
+    font-weight: bold;
+    font-size: 15px;
+    background-color:  rgb(55, 187, 243);
+}
+
+.right_area{
+   margin-left: 10px;
+   background-color: azure;
+   
+}
+.right_area .detail_report{
+    font-size: 15px;
+    font-family:monospace;
+    font-weight: bolder;
+
+}
+
+.detail_report ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.right_area .right_title{
+    border: 1px solid black;
+    background-color: rgb(214, 250, 255);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.right_title h5{
+    margin-top: -15px;
+}
+
+
+.report_title{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.table_report{
+    margin:auto;
+    margin-top: 10px;
+    text-align: center;
+    height: auto;
+    font-size: 13px;
+    background-color: rgb(29, 10, 10);
+    
+
+}
+.table_report .table_head th{
+    padding: 5px 20px 5px 20px;
+    background-color: rgb(188, 236, 255);
+  
+}
+
+.table_report .body_report{
+
+    background-color: rgb(253, 253, 255);
+    max-width: 10px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+

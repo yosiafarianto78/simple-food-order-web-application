@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imren Grill Restaurant</title>
+    <link rel="stylesheet" href="my_css.css">
+
+  </head>
+
+  <body>
+        <div class="area">
+          <div class="content">
+            <div class="left_area">
+              <div class="left_title">
+                  <h2> Imren Grill</h2>
+                  <h4>Karl-Marx-StraBe 75, 12043 Berlin, Germany</h4>
+              </div>
+              <div class="table">
+                  <h4>Cashier</h4>
+                    <table class="table_order">
+                      <thead class="table_head">
+                          <tr>
+                              <th>No.</th>
+                              <th>Time</th>
+                              <th>Order List</th>
+                              <th>Quantity/Price</th>
+                              <th>Total</th>
+                            </tr>
+                      </thead>
+                      <tbody class="order_body" id="list_order"></tbody>
+                    </table>
+              </div>
+              <div class="submit_button">
+                <button class="submit_text" id="submit_button"> Submit To Financial Statement</button>
+            </div>
+
+              <div class="order_ready_text">
+                  <h5>If the order is complete,
+                     please press enter to calculate the total</h5>
+              </div>
+              <div class="order">
+                <div class="order_name">
+                    <label class="typing" for="name">Food Name</label><br>
+               </div>     
+                    <div class="input_order">
+                      <input type="text" id="name"/>
+                    </div>
+              
+                <div class="order_name">
+                    <label class="typing" for="price">Price</label><br>
+                </div>
+                    <div class="input_order">
+                      <input type="text" id="price"/>
+                    </div>
+                
+                <div class="order_name">
+                    <label class="typing" for="qty" >Quantity</label><br>
+                </div>    
+                    <div class="input_order">
+                        <input type="text" id="qty"/>
+                    </div>
+                
+              </div>
+              <div class="order_button">
+                <button class="enter_text" id="enter_button"> Enter</button>
+              </div>
+
+            </div>
+
+            <div class="right_area">
+              <div class="right_title">
+                  <h4>Financial Statement</h4>
+                  <h5>12.12.2012</h5>
+              </div>
+              <div class="detail_report">
+                  
+                    <ul>
+                      <li>Income: <span id='income'></span></li>
+                      <li>Transfer Bank: <span id='transfer'> </span></li>
+                      <li>CASH: <span id='cash'> </span></li>
+                    </ul>
+                  
+              </div>
+              <div class="report_title">List All Purchases</div>
+              <table class="table_report">
+                  <thead class="table_head">
+                      <tr>
+                          <th>No.</th>
+                          <th>Time</th>
+                          <th>Order List</th>
+                          <th>Total</th>
+                      </tr>
+                  </thead>
+                  <tbody class="body_report" id=list_report></tbody>
+              </table>
+            </div>
+          </div>
+      </div>
+     
+          
+          
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="my_script.js"></script>
+
+  </body>
+</html>
